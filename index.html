@@ -11,23 +11,25 @@
     <div class="containerParent">
         <div class="container">
             <h1>Number_Generator</h1>
-            <form>
+            <form id="form">
                 <div class="numberDiv">
                     <label for="min" class="label">MIN</label>
-                    <input type="number" class="number" id="min" required>
+                    <input type="number" class="number" id="min" required valid>
                 </div>
                 <div class="numberDiv">
                     <label for="min" class="label">MAX</label>
                     <input type="number" class="number" id="max" required>
-                    <div class="output">
-                        312
+                    <div class="output" id="output">
+                       <span>3121</span> 
                     </div>
                     <button class="btn">GENERATE</button>
                 </div>
             </form>
         </div>
+        
+        <footer><a href="https://github.com/Munem-Prionto" target="_blank">Munem Prionto</a></footer>
     </div> 
-    <footer><a href="https://github.com/Munem-Prionto" target="_blank">Munem Prionto</a></footer>
+    
     <!-- js-->
     <script src="app.js"></script>
 </body>

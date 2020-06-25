@@ -24,9 +24,10 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #222;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
 }
 .containerParent {
+    position: relative;
     display: flex;
     width: 100%;
     height: 100%;
@@ -56,6 +57,9 @@ body {
 }
 .number:focus {
     border-color: rgb(104, 209, 43);
+}
+.red {
+    border-color: rgb(255, 0, 0) !important;
 }
 .label {
     font-size: 12px;
@@ -87,13 +91,15 @@ body {
     outline: none;
 }
 .output {
+    word-wrap: break-word;
+    width: 100%;
     margin-top: 30px ;
     text-align: center;
     font-size: 60px;
 }
 footer{
-    margin-top: 17vh;
-    height: 3vh;
+    bottom: 0px;
+    position: absolute;
     width: 100%;
     text-align: center;
     background-color: #ddd;
@@ -120,11 +126,14 @@ a:active {
         width: 100%;
     }
     body {
-        height: 90vh;
+        height: 100vh;
     }
     footer {
-        margin-top: 7vh;
+        
         height: 3vh;
+    }
+    .output {
+        font-size: 20px;
     }
 
 }
