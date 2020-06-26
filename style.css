@@ -127,17 +127,18 @@ a:active {
         width: 100%;
     }
     body {
+        background-color: #ddd;
         height: 100vh;
     }
     footer {
-        
+        background-color: #222;
         height: 3vh;
+    }
+    a {
+        color: white;
     }
     .output {
         font-size: 20px;
-    }
-    .containerParent {
-        justify-content: start;
     }
 
 }
