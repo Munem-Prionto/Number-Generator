@@ -36,6 +36,7 @@ body {
     justify-content: center;
 }
 .container {
+
     padding: 0px 0px;
     width: 50%;
     background-color: #ddd;
@@ -134,6 +135,9 @@ a:active {
     }
     .output {
         font-size: 20px;
+    }
+    .containerParent {
+        justify-content: start;
     }
 
 }
