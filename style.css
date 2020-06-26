@@ -115,13 +115,6 @@ a:hover {
 a:active {
     color: rgb(104, 209, 43);
 }
-
-@media only Screen and (max-width : 800px) {
-    .container {
-        width: 80%;
-    }
-
-}
 @media only Screen and (max-width : 500px) {
     .container {
         width: 100%;
